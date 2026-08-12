@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Automatización para Marketeros — Casos reales</title>
+<meta name="description" content="Casos reales de automatización para equipos de marketing: captura de leads 24/7, nurturing, repurposing con IA, dashboards en vivo y más.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><defs><linearGradient id='g' x1='0' y1='0' x2='1' y2='1'><stop offset='0' stop-color='%238b5cf6'/><stop offset='1' stop-color='%2322d3ee'/></linearGradient></defs><rect x='10' y='10' width='80' height='80' rx='20' fill='url(%23g)'/><path d='M35 50l10 10 20-22' stroke='white' stroke-width='10' fill='none' stroke-linecap='round' stroke-linejoin='round'/></svg>">
+</head>
+<body>
+
+<!-- ===== HERO ===== -->
+<header class="hero" id="top">
+  <div class="hero-bg" aria-hidden="true">
+    <div class="orb orb-1"></div>
+    <div class="orb orb-2"></div>
+    <div class="grid-lines"></div>
+  </div>
+  <nav class="nav">
+    <a class="nav-brand" href="#top">
+      <svg viewBox="0 0 100 100" width="26" height="26" aria-hidden="true">
+        <defs><linearGradient id="lg1" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#8b5cf6"/><stop offset="1" stop-color="#22d3ee"/></linearGradient></defs>
+        <rect x="10" y="10" width="80" height="80" rx="20" fill="url(#lg1)"/>
+        <path d="M35 50l10 10 20-22" stroke="white" stroke-width="10" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+      <span>Auto<span class="grad-text">Mark</span></span>
+    </a>
+    <div class="nav-links">
+      <a href="#casos">Casos</a>
+      <a href="#proceso">Proceso</a>
+      <a href="#stack">Stack</a>
+      <a href="#cta">Contacto</a>
+    </div>
+  </nav>
+
+  <div class="hero-content">
+    <p class="hero-eyebrow">Casos reales · Resultados medibles</p>
+    <h1>Automatización para <span class="grad-text">marketeros</span></h1>
+    <p class="hero-sub">Deja de hacer tareas repetitivas a mano. Descubre cómo equipos de marketing ahorran horas cada semana automatizando captura de leads, contenido, reportes y seguimiento — con casos reales y KPIs.</p>
+    <div class="hero-actions">
+      <a class="btn btn-primary" href="#casos">Ver los casos</a>
+      <a class="btn btn-ghost" href="#proceso">Cómo lo hacemos</a>
+    </div>
+    <div class="hero-scroll" aria-hidden="true">▾</div>
+  </div>
+</header>
+
+<!-- ===== STATS ===== -->
+<section class="stats" id="stats">
+  <div class="stat"><span class="stat-num" data-count="25">0</span><span class="stat-label">Horas ahorradas / semana</span></div>
+  <div class="stat"><span class="stat-num" data-count="40">0</span><span class="stat-label">% más de leads capturados</span></div>
+  <div class="stat"><span class="stat-num" data-count="30">0</span><span class="stat-label">% más de conversión</span></div>
+  <div class="stat"><span class="stat-num" data-count="10">0</span><span class="stat-label">Casos de uso reales</span></div>
+</section>
+
+<!-- ===== CASOS ===== -->
+<section class="section" id="casos">
+  <div class="section-head">
+    <p class="eyebrow">Los casos</p>
+    <h2>Automatizaciones que ya funcionan</h2>
+    <p class="section-sub">Diez escenarios típicos del día a día de un marketero, con el problema, la solución automatizada y el resultado medible.</p>
+  </div>
+  <div class="casos-grid" id="casosGrid"><!-- JS render --></div>
+</section>
+
+<!-- ===== PROCESO ===== -->
+<section class="section section-dark" id="proceso">
+  <div class="section-head">
+    <p class="eyebrow">El método</p>
+    <h2>De la idea al flujo funcionando</h2>
+    <p class="section-sub">No vendemos tecnología por vender: primero entendemos tu proceso, luego lo automatizamos.</p>
+  </div>
+  <div class="proceso-grid">
+    <div class="paso"><span class="paso-num">01</span><h3>Diagnóstico</h3><p>Mapeamos tus tareas repetitivas y los cuellos de botella de tu marketing.</p></div>
+    <div class="paso"><span class="paso-num">02</span><h3>Diseño del flujo</h3><p>Definimos el flujo ideal: triggers, datos, acciones y excepciones.</p></div>
+    <div class="paso"><span class="paso-num">03</span><h3>Implementación</h3><p>Construimos la automatización con n8n, Supabase e IA conectados a tus tools.</p></div>
+    <div class="paso"><span class="paso-num">04</span><h3>Métricas y mejora</h3><p>Medimos resultados, iteramos y escalamos lo que funciona.</p></div>
+  </div>
+</section>
+
+<!-- ===== STACK ===== -->
+<section class="section" id="stack">
+  <div class="section-head">
+    <p class="eyebrow">Stack</p>
+    <h2>Herramientas que conectamos</h2>
+    <p class="section-sub">Todo el ecosistema que usamos para construir las automatizaciones.</p>
+  </div>
+  <div class="stack-grid">
+    <div class="stack-item"><span class="stack-icon">⚙️</span><span>n8n</span></div>
+    <div class="stack-item"><span class="stack-icon">🗄️</span><span>Supabase</span></div>
+    <div class="stack-item"><span class="stack-icon">💬</span><span>WhatsApp API</span></div>
+    <div class="stack-item"><span class="stack-icon">✈️</span><span>Telegram</span></div>
+    <div class="stack-item"><span class="stack-icon">📧</span><span>Gmail / Email</span></div>
+    <div class="stack-item"><span class="stack-icon">🤖</span><span>IA (GPT, Claude)</span></div>
+    <div class="stack-item"><span class="stack-icon">📊</span><span>Google Sheets</span></div>
+    <div class="stack-item"><span class="stack-icon">📅</span><span>Cal.com</span></div>
+    <div class="stack-item"><span class="stack-icon">🧲</span><span>CRM</span></div>
+    <div class="stack-item"><span class="stack-icon">🌐</span><span>Netlify</span></div>
+  </div>
+</section>
+
+<!-- ===== CTA ===== -->
+<section class="section cta" id="cta">
+  <div class="cta-inner">
+    <p class="eyebrow">¿Listo para automatizar?</p>
+    <h2>Tu marketing puede trabajar <span class="grad-text">mientras duermes</span></h2>
+    <p class="section-sub">Cuéntanos qué tarea te roba más tiempo y te proponemos la automatización.</p>
+    <a class="btn btn-primary btn-lg" href="mailto:hola@futuraria.com?subject=Quiero%20automatizar%20mi%20marketing">Agenda una llamada</a>
+  </div>
+</section>
+
+<!-- ===== FOOTER ===== -->
+<footer class="footer">
+  <div class="footer-inner">
+    <p><strong>AutoMark</strong> — casos de automatización para marketeros</p>
+    <p class="footer-note">Construido con n8n + Supabase + IA · Futuraria</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
